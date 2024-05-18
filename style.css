@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background-color: #8c52ff;
+    background-color: #555555;
 }
 .container {
     font-size: 16px;
@@ -44,7 +44,7 @@ body {
     background-color: #efefef;
 }
 #options-container button.active {
-    background-color: #8c52ff;
+    background-color: #7EC3FF;
     border: 3px solid black;
     color: white;
 }
@@ -85,7 +85,7 @@ body {
 canvas {
     display: block;
     margin: auto;
-    border: 10px solid #8c52ff;
+    border: 10px solid #555555;
     border-radius: 10px;
 }
 .hide {
@@ -105,18 +105,15 @@ canvas {
 #new-game-button {
     font-size: 1.25em;
     padding: 0.5em 1em;
-    background-color: #8c52ff;
+    background-color: #7EC3FF;
     border: 3px solid black;
     color: white;
     border-radius: 0.2em;
     cursor: pointer;
 }
 .win-msg {
-    color: aquamarine;
+    color: green;
 }
 .lose-msg {
     color: red;
-}
-.space-button {
-    width: 100%; /* Adjust this width as needed */
 }
